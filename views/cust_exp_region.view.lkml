@@ -39,7 +39,11 @@ view: cust_exp_region {
 
   dimension: is_priority_region {
     type: yesno
+<<<<<<< HEAD
     sql:  ${TABLE}."state" IN ('Arizona', 'California', 'New York', 'Seattle') ;;
+=======
+    sql:  ${TABLE}."state" IN ('Arizona', 'California', 'Chicago', 'Seattle') ;;
+>>>>>>> branch 'master' of git@github.com:prabhakrishnamoorthycg/vida_demo_project_dev.git
   }
 
   measure: count {
